@@ -2,6 +2,9 @@
 
 import json
 import subprocess
+import sys
+
+sys.path.append('lib')
 
 from ops.charm import CharmBase
 from ops.framework import StoredState, Object
